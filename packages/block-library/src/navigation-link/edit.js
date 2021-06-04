@@ -333,6 +333,7 @@ export default function NavigationLinkEdit( {
 			backgroundColor: backgroundColorAttr,
 			customTextColor: customTextColorAttr,
 			customBackgroundColor: customBackgroundAttr,
+			isTopLevelLink,
 		} );
 	}, [
 		isTopLevelLink,
