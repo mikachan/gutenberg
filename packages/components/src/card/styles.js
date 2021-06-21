@@ -12,7 +12,8 @@ import { HorizontalRule } from '@wordpress/primitives';
  * Internal dependencies
  */
 import { Flex } from '../flex';
-import { COLORS, space } from '../utils';
+import { COLORS } from '../utils';
+import { space } from '../ui/utils/space';
 
 export const styleProps = {
 	borderColor: COLORS.lightGray[ 500 ],
@@ -110,16 +111,16 @@ export function bodySize() {
 	return `
 		&.is-size {
 			&-large {
-				padding: ${ space( 3 ) } ${ space( 4 ) };
+				padding: ${ space( 6 ) } ${ space( 8 ) };
 			}
 			&-medium {
-				padding: ${ space( 2 ) } ${ space( 3 ) };
+				padding: ${ space( 4 ) } ${ space( 6 ) };
 			}
 			&-small {
-				padding: ${ space( 2 ) };
+				padding: ${ space( 4 ) };
 			}
 			&-extraSmall {
-				padding: ${ space( 1 ) };
+				padding: ${ space( 2 ) };
 			}
 		}
 	`;
@@ -129,16 +130,16 @@ export function headerFooterSizes() {
 	return `
 		&.is-size {
 			&-large {
-				padding: ${ space( 3 ) } ${ space( 4 ) };
+				padding: ${ space( 6 ) } ${ space( 8 ) };
 			}
 			&-medium {
-				padding: ${ space( 2 ) } ${ space( 3 ) };
+				padding: ${ space( 4 ) } ${ space( 6 ) };
 			}
 			&-small {
-				padding: ${ space( 2 ) };
+				padding: ${ space( 4 ) };
 			}
 			&-extraSmall {
-				padding: ${ space( 1 ) };
+				padding: ${ space( 2 ) };
 			}
 		}
 	`;
