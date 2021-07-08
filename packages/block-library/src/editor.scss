@@ -101,3 +101,8 @@
 #end-resizable-editor-section {
 	display: none;
 }
+
+.editor-styles-wrapper .wp-block[data-align="right"] {
+    float: right;
+    margin-left: 2em;
+}
